@@ -1,0 +1,140 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    /*background: ;*/
+}
+.header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background-color: ;
+    
+}
+li.topnavbar{
+    float: right;
+}
+ul {
+    list-style: none;
+    
+  }
+a{
+    padding: 8px;
+    color: darkslategrey;
+}
+a.topnavbar{
+    color: black;
+}
+li{
+    display: inline;
+}
+  /*
+li,a {
+    display: inline;
+    padding: 6px;
+    background-color: #dddddd;
+  }*/
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 13%;
+   
+  }
+  
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  /*  background: blue;*/
+    height: 35px;
+    width: 500px;
+    border-radius: 100px;
+    padding: 10px;
+    border: 1px solid grey;
+}
+.search-btn{
+    
+        color: gray; 
+        float: left;
+       width: 20px;
+       height: 20px;
+       border-radius: 50%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+}
+.search-btn2{
+    
+    color: rgb(14, 59, 117);
+    float: right;
+   width: 30px;
+   height: 20px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.search-txt{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding: 0;
+    color: black;
+    line-height: 35px;
+    width: 240px;
+}
+.button{
+    margin-top: 10%; 
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    line-height: 45px;
+    height: 80px;
+    min-width: 100px;
+    text-align: center;
+    
+
+}
+#google-search, #feeling-lucky{
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    margin-right: 2%;
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 38px;
+    min-width: 100px;
+    border: none;
+    color: gray;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;    
+}
+#kenya{
+   font-size: 18px;
+    color: darkslategrey;
+    margin-left: 0px;
+    padding: 5px 50px 15px;
+    border-bottom: 1px solid #f2f2f2;
+    b;
+}
+.footer-left{
+
+   }
+.footer-right{
+    float: right;
+   margin-right: 15px;
+   padding-right: 20px;
+  padding: 0px;
+  /* display: block;
+  color: grey;*/
+}
