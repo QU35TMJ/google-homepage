@@ -8,25 +8,31 @@ body{
     right: 0;
     top: 0;
     width: 100%;
-    background-color: ;
+    text-decoration: none;
     
 }
-li.topnavbar{
+.header li{
     float: right;
+    
+}
+.header a{
+    
+    color: black;
+    font-weight: lighter;
+    padding: 8px;
+}
+a{
+    text-decoration: none;
 }
 ul {
     list-style: none;
     
   }
-a{
-    padding: 8px;
-    color: darkslategrey;
-}
-a.topnavbar{
-    color: black;
-}
 li{
     display: inline;
+}
+#userProfile, #moreApps{
+    font-size: 20px;
 }
   /*
 li,a {
@@ -65,6 +71,7 @@ img{
        display: flex;
        justify-content: center;
        align-items: center;
+       margin-top: 7px;
 }
 .search-btn2{
     
@@ -76,6 +83,7 @@ img{
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 5px;
 }
 .search-txt{
     border: none;
@@ -119,17 +127,24 @@ img{
     width: 100%;
     background-color: lightgray;    
 }
+.footer a{
+    padding: 8px;
+    color: darkslategrey;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
 #kenya{
    font-size: 18px;
     color: darkslategrey;
     margin-left: 0px;
     padding: 5px 50px 15px;
     border-bottom: 1px solid #f2f2f2;
-    b;
+    
 }
-.footer-left{
+/*.footer-left{
 
-   }
+   }*/
 .footer-right{
     float: right;
    margin-right: 15px;
